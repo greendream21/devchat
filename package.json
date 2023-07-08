@@ -10,22 +10,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^9.23.0",
+    "@supabase/supabase-js": "^2.26.0",
+    "impact-app": "^0.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.10",
+    "signalit": "^0.1.5"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.22.7",
     "@babel/plugin-proposal-explicit-resource-management": "^7.22.6",
+    "@types/node": "^20.4.1",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
-    "firebase-tools": "^12.4.2",
     "postcss": "^8.4.25",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.2.0-beta",
