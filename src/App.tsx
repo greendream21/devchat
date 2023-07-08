@@ -21,7 +21,10 @@ function App() {
         </h2>
           <div className="mt-6 ">
         <button
-          onClick={() => authenticator.signIn()}
+          onClick={() =>{
+            console.log("WTF?")
+             authenticator.signIn()
+          }}
           className="flex w-full items-center justify-center gap-3 rounded-md bg-[#24292F] px-3 py-1.5 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#24292F]"
         >
           <svg
